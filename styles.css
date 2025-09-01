@@ -1,0 +1,542 @@
+
+
+
+
+
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #121212;
+  color: #222;
+  text-align: center;
+}
+
+/* IMAGEM PRINCIPAL */
+.minha-imagem {
+  display: block;
+  margin: 1px auto; /* centraliza horizontalmente */
+  width: 100%;      /* ajuste a largura que quiser */
+  height: 350px;       /* mantém proporção */
+  border-radius: 8px;
+  max-width: 1346px;
+}
+
+/* MENU COM LOGO */
+.menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 0 20px;
+  z-index: 1000;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.menu li a:hover {
+  color: #00ffc8;
+}
+
+.banner {
+  background-image: url('https://d2nytdlptrqhdi.cloudfront.net/wp-content/uploads/2025/01/20083749/Manutencao-industrial.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  position: relative;
+  color: #e4e4e4;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.overlay h2 {
+  font-size: 36px;
+}
+
+.overlay p {
+  font-size: 20px;
+}
+
+.container {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.container h2 {
+  border-bottom: 2px solid yellow;
+  padding-bottom: 10px;
+  color: #f8f9fa;
+}
+
+#servicos li, p, #sobre h2 {
+  color: #f8f9fa;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+ul li i {
+  margin-right: 10px;
+  color: #000;
+}
+
+footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.contato-box {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.contato-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.info-contato {
+  flex: 1;
+  min-width: 280px;
+  font-size: 16px;
+}
+
+.info-contato p {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.info-contato i {
+  color: green;
+}
+
+.info-contato a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logo-zap {
+  margin-top: 20px;
+  width: 80px;
+}
+
+form {
+  flex: 1;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 2px solid #444;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #f7b733;
+  color: black;
+  padding: 12px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #ffcc00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.box {
+   background: coral;
+   height: 50px; :tamanho
+   width: 50px; :largura
+   margin: 10px; 
+   display: inline; 
+
+}
+
+
+.box-2 {
+   background: chartreuse;
+
+
+}
+
+.box-3 {
+  background: crimson;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+* {
+   box-sizing: border-box;
+
+ }
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: #ff1493;
+  padding: 20px;
+  border: 10px solid red
+}
+  /*box sizing */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*
+
+  margin: 20px;
+  margin: 30px;
+  margin: 10px;
+  margin: 5px;
+
+  margin:10px 50px 30px 5px ;
+  /*      12h  15h  18h 21h*/
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+ /* h1 {
+   color: red;
+   font-size: 64px;
+   font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-style: inherit;
+  text-shadow: 5px 5px 10px #FF0000; */
+
+ 
+
+  /* p {
+    color: burlywood; /* troca de cor /*
+    font-size: 30px; /* troca o tamanho do texto  /*
+    font-weight: 100; /*   /*
+   font-family: "Roboto", sans-serif;
+   font-style: normal;
+   line-height: 50px;
+   letter-spacing: 10px;
+   word-spacing: 40px; 
+   text-align: justify;
+   text-transform: lowercase;
+   text-decoration: underline;
+
+  }
+  
+  
+
+
+
+
+
+  
+   
+
+/*
+  RGB:
+   RED
+   GREEN
+   BLUE
+
+   HEXADECIMAL: 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F
+   DECIMAL: 0,1,2,3,4,5,6,7,8,9
+
+   APLICATIVOS PARA ESCOLHER COR 
+   CORES CSS RGB E RGBA
+   RODA DE CORES 
+   CRIE UMA PALETA 
+/*

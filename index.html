@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Manutenção Industrial Pro</title>
+  <link href="./styles.css" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- LOGO / IMAGEM PRINCIPAL -->
+  <img src="./manutencao.jpeg" alt="Imagem de manutenção" class="minha-imagem">
+
+  <!-- MENU COM LOGO -->
+  <nav class="menu">
+    <ul>
+        <li><a href="#sobre">Sobre nós</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <section class="banner">
+    <div class="overlay">
+      <h2>Conserto e Manutenção de Máquinas Industriais</h2>
+      <p>Atendimento rápido, profissional e eficiente</p>
+    </div>
+  </section>
+
+  <section id="sobre" class="container">
+    <h2>Sobre Nós</h2>
+    <p style="font-size: 18px;">Atuamos há mais de 10 anos no mercado de manutenção técnica, atendendo empresas de panificação, açougues, cafeterias, restaurantes e muito mais. Nosso foco é oferecer agilidade, confiança e soluções duradouras.</p>
+  </section>
+
+  <section id="servicos" class="container">
+    <h2>Serviços</h2>
+    <ul>
+      <li><i class="fas fa-tools"></i> Manutenção corretiva e preventiva</li>
+      <li><i class="fas fa-cogs"></i> Diagnóstico e reparo de falhas</li>
+      <li><i class="fas fa-oil-can"></i> Lubrificação e ajustes finos</li>
+      <li><i class="fas fa-bolt"></i> Serviços elétricos e mecânicos</li>
+    </ul>
+  </section>
+
+  <section id="contato" class="container contato-box">
+    <h2>Contato</h2>
+    <div class="contato-grid">
+      <div class="info-contato">
+        <p><i class="fas fa-map-marker-alt"></i> Av. Industrial, 123 - São Paulo - SP</p>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:gcardoso710@gmail.com">gcardoso710@gmail.com</a></p>
+        <p><i class="fab fa-whatsapp"></i> <a href="https://wa.me/5517992662076" target="_blank">+55 17 99266-2076</a></p>
+        <img class="logo-zap" src="https://img.icons8.com/color/96/whatsapp--v1.png" alt="WhatsApp" />
+      </div>
+
+      <!-- Formulário atualizado -->
+      <form action="https://formsubmit.co/gcardoso710@gmail.com" method="POST">
+        <input type="text" name="nome" placeholder="Seu nome" required />
+        <input type="email" name="email" placeholder="Seu e-mail" required />
+        <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+
+        <!-- Configurações extras -->
+        <input type="text" name="_honey" style="display:none"> <!-- anti-spam -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="./obrigado.html">
+      </form>
+    </div>
+  </section>
+
+  <!-- Botão WhatsApp flutuante -->
+  <a class="whatsapp" href="https://wa.me/5517992662076" target="_blank">
+    <img src="https://img.icons8.com/color/64/whatsapp--v1.png" alt="WhatsApp">
+  </a>
+
+  <footer>
+    <p>&copy; 2025 Manutenção Industrial Pro - Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
